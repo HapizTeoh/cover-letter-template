@@ -21,6 +21,8 @@ Install the dependencies with
 pip3 install -r requirements.txt
 ```
 
+Add the DOCUMENT_ID in the script.py
+
 then run the script with
 ```
 python3 script.py

@@ -103,11 +103,11 @@ def main():
             if keywords in ENV_VARS:
                 words_list[index] = ENV_VARS[keywords]
                 
-        new_template = "".join(words_list)
+        filled_template = "".join(words_list)
         
         with open(f"{COMPANY_NAME}.txt", "w") as file:
             # Writing data to a file
-            file.write(new_template)
+            file.write(filled_template)
         
     except HttpError as err:
         print(err)
